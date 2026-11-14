@@ -1,7 +1,7 @@
 # Pratala — verified harvest lots on NEAR
 
 > Built at the NEAR HACKATHON (Nov 1–14, 2026). Tracks: Real-World Money · NFTs That Do Something · Open Innovation (the TEE-attested AI check also fits Privacy & Private AI).
-> **Live on NEAR mainnet** — app <https://pratala.xyz> · contract `lots.pratala.near` · API <https://api.pratala.xyz/api> · repo <https://github.com/wildanzrrr/pratala-near>.
+> **Live on NEAR mainnet** — app <https://pratala.xyz> · contract `lots.pratala.near` · API <https://api.pratala.xyz/api> · repo <https://github.com/hellodanzr/pratala-near>.
 
 Pratala is a marketplace where an Indonesian farmer sells a harvest **before** it is harvested, without a middleman. Today a smallholder sells at the warehouse gate at the middleman's price, often after borrowing from that same middleman all season. Pratala lets a buyer pre-fund the harvest directly: the farmer registers a projection (crop, kilos, price per kilo) which mints a NEP-171 NFT; three independent attestations — field agent visit, cooperative review, warehouse weigh-in — act as the oracle; buyers fund it **by the kilogram** with USDC and receive share NFTs; the USDC sits in escrow inside the lot contract. At weigh-in the contract settles: the farmer is paid for what was delivered, the platform takes 2%, and any shortfall is refunded **to whoever holds the share NFTs at that moment**.
 
